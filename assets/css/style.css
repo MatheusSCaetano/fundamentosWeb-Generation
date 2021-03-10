@@ -32,15 +32,6 @@
     font-family: helvetica;
     margin-left: 30px;
 }
-/* CONTAINER */
-/* .container-big{
-    display:flex;
-    flex-direction:row;
-    justify-content: center;
-    width: 100vw;
-    height: 100vh;
-    background-color: #C9082A;
-} */
 
 .container{
     display: flex;
@@ -53,12 +44,6 @@
     overflow: hidden; */
 }
 
-
-
-/* TITULO */
-/* .imgPrincipal{
-    object-fit: cover;
-} */
 .titulo-center{
     text-align: center;
     color: #17408B;
@@ -108,8 +93,6 @@
     transition: 100ms;
 }
 
-
-
 .jogadores{
     display:flex;
     flex-flow: row wrap;
@@ -127,6 +110,7 @@
     border-style: outset;
     border-color:#F9A214 ;
     transition: all 0.5s;
+    text-decoration: none;
 }
 
 .card:hover{
@@ -134,14 +118,12 @@
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
 
-
 .titulo-player{
     text-align: center;
     color: #ffffff;
     font-family: helvetica;
     background-color: #17408b;
     height: 60px;
-    text-decoration: none;
 }
 
 .player-info{
@@ -173,4 +155,23 @@
 
 .card+.card{
     margin-top: 75px;
+}
+
+.rodape{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    /* align-items: center; */
+    font-family: helvetica;
+    margin-top: 75px;
+    color: rgb(0, 0, 0);
+    background-color: #F9A214;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons img{
+    width:40px;
 }
