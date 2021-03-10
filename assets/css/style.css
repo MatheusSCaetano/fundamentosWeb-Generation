@@ -69,13 +69,13 @@
 
 .subTitulo-center{
     text-align: center;
-    color: #F9A214;
+    color: #17408B;
     font-family: helvetica;
 }
 
 .subTitulo-center:hover{
     text-align: center;
-    color: #17408B;
+    color: #C9082A;
     font-family: helvetica;
     transition: 0.2s;
 }
