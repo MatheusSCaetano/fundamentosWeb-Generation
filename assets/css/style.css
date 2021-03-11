@@ -193,3 +193,108 @@
 .icons img{
     width:40px;
 }
+
+/* pagina contato */
+.container-contato{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    margin-top:40px;
+    margin-bottom: 40px;
+    padding-bottom:40px;
+    padding-top:40px;
+    border-radius: 15px;
+    overflow: hidden; 
+}
+
+.titulo-contato{
+    text-align: start;
+    color: #17408B;
+    font-family: helvetica;
+}
+
+.titulo-contato:hover{
+    color: #F9A214;
+    font-family: helvetica;
+}
+
+.entre-em-contato-cabeçalho{
+    display: flex;
+    align-items: center;
+}
+
+.entre-em-contato-cabeçalho  svg{
+    margin-left: 20px;
+}
+
+.text-form{
+    color:#17408b;
+    font-family: helvetica;
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.input-form{
+    border: 1.6px solid #F9A214;
+    border-radius: 10px;
+    width: 300px;
+    /* width: 100%; */
+    height: 25px;
+    outline: 0;
+}
+
+.textarea-form{
+    border: 1.6px solid #F9A214;
+    border-radius: 10px;
+    width: 300px;
+    /* width: 100%; */
+    height: 150px;
+    outline: 0;
+}
+
+.btn-enviar{
+    background-color: #17408B;
+    color: white;
+    border-radius: 20px;
+    border: 3px solid #17408B;
+    width: 80px;
+    height: 30px;
+}
+
+.titulo-contato-sede{
+    text-align: center;
+    color: #17408B;
+    font-family: helvetica;
+}
+
+.titulo-contato-sede:hover{
+    color: #F9A214;
+    font-family: helvetica;
+}
+
+.entre-em-contato-cabeçalho-sede{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entre-em-contato-cabeçalho-sede  svg{
+    margin-left: 10px;
+}
+
+.mapa{
+    margin-top:15px;
+    border: 3px outset #17408B ;
+    transition: all 0.5s;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.mapa:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
