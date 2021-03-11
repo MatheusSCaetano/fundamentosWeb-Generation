@@ -33,19 +33,19 @@
                 </div>
                 <form>
                     <label class="text-form" for="nome">Nome: </label><br>
-                    <input class="input-form" type="text" id="nome">
-
-                    <br><br>
+                    <input class="input-form" type="text" id="nome" onkeyup="validaNome()">
+                    <div id="txtNome"></div>
+                    <br>
 
                     <label class="text-form" for="email">E-mail: </label><br>
-                    <input class="input-form" type="email" id="email">
-
-                    <br><br>
+                    <input class="input-form" type="email" id="email" onkeyup="validaEmail()">
+                    <div id="txtEmail"></div>
+                    <br>
 
                     <label class="text-form" for="assunto">Assunto: </label><br>
-                    <textarea class="textarea-form" name="assunto" id="assunto" cols="60" rows="5"></textarea>
-
-                    <br><br>
+                    <textarea class="textarea-form" name="assunto" id="assunto" onkeyup="validaAssunto()" cols="60" rows="5"></textarea>
+                    <div id="txtAssunto"></div>
+                    <br>
 
                     <button class="btn-enviar">Enviar</button>
 
@@ -66,20 +66,15 @@
 
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387193.305935303!2d-74.25986548248684!3d40.69714941932609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNova%20Iorque%2C%20NY%2C%20EUA!5e0!3m2!1spt-BR!2sbr!4v1615470451999!5m2!1spt-BR!2sbr"
-                        width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                         width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" onmousemove="mapaZoom()" onmouseout="mapaNormal()" id="maps"></iframe>
                     </iframe>
 
                 </div>
 
 
             </div>
-
         </div>
     </div>
-
-
-
-
 
     <div class="rodape">
         <div class="icons">
@@ -89,6 +84,7 @@
         </div>
         <p><b>Direitos reservados para: MSC &copy</b></b></p>
     </div>
-</body>
 
+    <script src="assets/js/script.js"></script>
+</body>
 </html>

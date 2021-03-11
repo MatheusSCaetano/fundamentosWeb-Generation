@@ -264,12 +264,18 @@
 }
 
 .btn-enviar{
-    background-color: #17408B;
-    color: white;
-    border-radius: 20px;
+    background-color: white;
+    color:#17408B ;
+    border-radius: 7px;
     border: 3px solid #17408B;
     width: 80px;
     height: 30px;
+    transition: all 0.5s;
+}
+
+.btn-enviar:hover{
+    background-color: #17408B;
+    color: white;
 }
 
 .titulo-contato-sede{
