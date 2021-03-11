@@ -31,6 +31,11 @@
     color: white;
     font-family: helvetica;
     margin-left: 30px;
+    transition: all 0.3s;
+}
+
+.item-menu:hover{
+    color: rgb(219, 215, 215);  
 }
 
 .botaomenu{
@@ -67,26 +72,26 @@
     text-align: center;
     color: #17408B;
     font-family: helvetica;
+    transition: all 0.5s;
 }
 
 .titulo-center:hover{
     text-align: center;
     color: #C9082A;
     font-family: helvetica;
-    transition: 0.2s;
 }
 
 .subTitulo-center{
     text-align: center;
     color: #17408B;
     font-family: helvetica;
+    transition: all 0.5s;
 }
 
 .subTitulo-center:hover{
     text-align: center;
     color: #C9082A;
     font-family: helvetica;
-    transition: 0.2s;
 }
 
 .grupo-btn-indice{
@@ -113,12 +118,11 @@
     color: white;
     outline: none;
     cursor: pointer;
-   
+    transition: all 0.5s;
 }
 
 .btn-indice:hover{
     background:#F9A214;
-    transition: 100ms;
 }
 
 .jogadores{
@@ -311,4 +315,3 @@
     -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
 }
-
