@@ -33,6 +33,14 @@
     margin-left: 30px;
 }
 
+.botaomenu{
+    position: fixed;
+    right: 8px;
+    bottom: 4px;
+    width: 8em;
+    margin-top: -0.5em;
+}
+
 .container-big{
     display: flex;
     width: 100%;
